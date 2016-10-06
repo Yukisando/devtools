@@ -1,0 +1,26 @@
+Create new repo:
+
+echo "DESCRIPTION" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin REPO
+git push -u origin master
+
+-----------------------------------------------------------------------------------------
+
+Configurate credentials:
+
+git config --global user.name USERNAME
+git config --global user.email EMAIL
+
+-----------------------------------------------------------------------------------------
+
+Clone a Repo:
+
+git init
+git clone REPO
+git add .
+git commit -m "message"
+git push (-u orinin master)
+
