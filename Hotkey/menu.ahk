@@ -1,0 +1,4 @@
+﻿RAlt::AppsKey
+^,::
+	send,<>
+Return
