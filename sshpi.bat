@@ -14,5 +14,4 @@ cls
 color 5
 echo IP: %pi_ip% PORT: %pi_port%
 echo.
-ssh pi@%pi_ip% %pi_port%
-pause
+ssh pi@%pi_ip% -p %pi_port%
