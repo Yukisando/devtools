@@ -1,4 +1,5 @@
-color 9
+@echo off
+cls
 @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 
 :AskProg
@@ -18,6 +19,7 @@ choco install openssh -y
 choco install mingw -y
 choco install cygwin -y
 choco install git.install -y
+choco install python2 -y
 echo.
 echo Done installing programs!
 echo.
@@ -50,9 +52,9 @@ echo All good!
 pause
 
 :noClone
-color 2
+color 9
 echo.
 echo.
 echo.
-echo All good!
+MsgBox(4096, "Good to Go! =)")
 pause
