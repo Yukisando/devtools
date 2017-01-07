@@ -56,5 +56,5 @@ color 9
 echo.
 echo.
 echo.
-MsgBox(4096, "Good to Go! =)")
+echo Good to Go! =)
 pause
