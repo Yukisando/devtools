@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\cmd.exe]
+@="C:\\Users\\Yuki\\OneDrive\\Dev\\Tools\\Softwares\\ConsoleZ\\console.exe"
+"Path"="C:\\Users\\Yuki\\OneDrive\\Dev\\Tools\\Softwares\\ConsoleZ\\"
