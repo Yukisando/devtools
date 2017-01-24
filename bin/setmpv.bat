@@ -31,8 +31,5 @@ echo Loaded files from MPV to appdata successfully.
 
 :noLoad
 echo.
-echo Not loading...
-
-echo.
 echo All done :)
 pause
